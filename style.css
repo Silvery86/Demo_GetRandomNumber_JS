@@ -1,0 +1,50 @@
+body{
+    font-size:15px;
+    color: #222222;
+    line-height:1.35;
+    font-family: sans-serif;    
+  }
+
+.random-array{
+    border: 1px solid orange;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.random-array h1{
+    font-size: 25px;
+    color: rgb(1, 147, 205);
+}
+.random-array-main{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.random-array-main > *{
+    flex: 1 1;
+}
+.random-array-main h2{
+    font-size: 15px;
+    margin-left: 5%;
+    font-weight: 700;
+    
+}
+.random-array-main button{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.random-array-result{
+    width: 100%;
+    text-align: start;
+   
+}
+.random-array-result p{
+     font-size: 15px;
+    font-weight: 700;
+    margin: 1% 5% 5% 5%;
+    
+}
+
